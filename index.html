@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    
+    <h1>Registration Form</h1>
+
+    <form action="" class="myForm" id="myForm">
+        <input type="text" name="name" id="name" placeholder="Enter Name"> 
+        <p id="name-error" class="error-msg"></p>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Enter Email Address"> 
+        <p id="email-error" class="error-msg"></p>
+        <br>
+        <textarea name="feedback" id="feedback" rows="10" cols="50" placeholder="Message"></textarea> 
+        <p id="feedback-error" class="error-msg"></p>
+        <br>
+        <button class="submit-btn" id="submit-btn">SUBMIT</button>
+    </form>
+
+    <script src="logic.js"></script>
+</body>
+</html>
